@@ -1,0 +1,14 @@
+{
+  "release-master": {
+    "description": "Stable",
+    "hide": false,
+    "last_updated": "2024-07-13T20:14:24.000Z",
+    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/9922569679",
+    "latest": true,
+    "tags": [
+      "release-master",
+      "release-master-2.3.3.4204",
+      "release-master-683449d"
+    ]
+  }
+}
