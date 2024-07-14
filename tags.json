@@ -10,5 +10,17 @@
       "release-master-2.3.3.4204",
       "release-master-9fd83fe"
     ]
+  },
+  "update-versions-release-master": {
+    "description": "Stable",
+    "hide": false,
+    "last_updated": "2024-07-14T12:25:58.000Z",
+    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/9927912470",
+    "latest": true,
+    "tags": [
+      "update-versions-release-master",
+      "update-versions-release-master-2.4.3.4248",
+      "update-versions-release-master-d73fcb7"
+    ]
   }
 }
