@@ -20,18 +20,18 @@ ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="8686/tcp,8686/udp"
 RUN apk add --no-cache libintl sqlite-libs icu-libs chromaprint
 
 ARG VERSION
-ARG BRANCH
+ARG SBRANCH
 ARG PACKAGE_VERSION=${VERSION}
 
 # Create a directory for the application binary and download Radarr
 RUN set -e ;\
     mkdir "${APP_DIR}/bin" ;\
-    curl -fsSL "https://lidarr.servarr.com/v1/update/${BRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 ;\
+    curl -fsSL "https://lidarr.servarr.com/v1/update/${SBRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 ;\
     rm -rf "${APP_DIR}/bin/Lidarr.Update" ;\
     rm -f "${APP_DIR}/bin/fpcalc"
 
 # Create a package_info file with version and author information
-RUN echo -e "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[tainrs](https://github.com/tainrs)\nUpdateMethod=Docker\nBranch=${BRANCH}" > "${APP_DIR}/package_info"
+RUN echo -e "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[tainrs](https://github.com/tainrs)\nUpdateMethod=Docker\nBranch=${SBRANCH}" > "${APP_DIR}/package_info"
 
 # Set appropriate permissions for the application directory
 RUN chmod -R u=rwX,go=rX "${APP_DIR}"
