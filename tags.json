@@ -10,5 +10,17 @@
       "release-2.4.3.4248",
       "release-22cc038"
     ]
+  },
+  "update-versions-release": {
+    "description": "main",
+    "hide": false,
+    "last_updated": "2024-09-02T18:29:23.000Z",
+    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/10671669124",
+    "latest": true,
+    "tags": [
+      "update-versions-release",
+      "update-versions-release-2.5.3.4341",
+      "update-versions-release-65f3e70"
+    ]
   }
 }
