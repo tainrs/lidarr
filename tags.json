@@ -14,13 +14,13 @@
   "update-versions-release": {
     "description": "main",
     "hide": false,
-    "last_updated": "2024-10-09T12:27:38.000Z",
-    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/11254908253",
+    "last_updated": "2024-10-18T12:28:19.000Z",
+    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/11403660873",
     "latest": true,
     "tags": [
       "update-versions-release",
       "update-versions-release-2.6.4.4402",
-      "update-versions-release-ffa543b"
+      "update-versions-release-84b8023"
     ]
   }
 }
