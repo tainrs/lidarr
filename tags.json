@@ -2,13 +2,13 @@
   "release": {
     "description": "main",
     "hide": false,
-    "last_updated": "2024-09-25T05:16:37.000Z",
-    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/11026743147",
+    "last_updated": "2026-01-03T10:11:26.000Z",
+    "last_updated_url": "https://github.com/tainrs/lidarr/actions/runs/20675839084",
     "latest": true,
     "tags": [
       "release",
       "release-2.4.3.4248",
-      "release-a3bd960"
+      "release-ad11864"
     ]
   },
   "update-versions-release": {
